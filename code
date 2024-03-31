@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Main
+{
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+        
+            int camiseta = 60;
+            System.out.println("***Moda Proz***");
+            System.out.println("Entre com o valor para compra da sua camiseta: Preço R$60.00");
+        
+        if (valorPago < camiseta) {
+            System.out.println("Valor insuficiente");
+            System.out.println("Valor do Produto: " + camiseta);
+            System.out.println("Valor Pago: " + valorPago);
+            System.out.println("Diferença: " + (camiseta - valorPago) );
+            System.out.println("Por Favor, volte ao menu de pagamento");
+              }else{
+            System.out.println("Valor Produto: " + camiseta);
+            System.out.println("Valor Pago: " + valorPago);
+            System.out.println("Troco: " + (valorPago - camiseta) );
+            System.out.println("item adicionado à lista de entrega");
+            }
+    }
+}
